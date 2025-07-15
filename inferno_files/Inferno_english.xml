@@ -471,7 +471,7 @@
 
             <lg n="45" xml:id="lg045">
                <l n="133">All gaze upon him, and all do him honour.</l>
-               <l n="134">There I beheld both Socrates and Plato,</l>
+               <l n="134">There I beheld both Socrates and <persName key="Plato" ref="http://www.wikidata.org/entity/Q859" ana="webannotation:http://temp.lincsproject.ca/yMftYVjAT8C">Plato</persName>,</l>
                <l n="135">Who nearer him before the others stand;</l>
             </lg>
 
@@ -769,6 +769,93 @@
         "type": "crm:E21_Person",
         "label": "Saladin",
         "description": "Sultan of Egypt and founder of the Ayyubid dynasty (1137–1193)"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/yMftYVjAT8C">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/yMftYVjAT8C",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2025-07-15T15:45:32.828Z",
+    "creator": {
+        "id": "https://github.com/yaspos",
+        "type": "crm:E21_Person",
+        "name": "Yasmine Posillipo"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.1.0"
+    },
+    "target": {
+        "id": "/target/knYCGwNfweJ",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/YasPos/dh2025_workshop/main/inferno_files/Inferno_english.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/YasPos/dh2025_workshop/main/inferno_files/Inferno_english.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "The Inferno"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/knYCGwNfweJ/selector/textPosition/zOkIluXTeNw",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 8841,
+                "end": 8846,
+                "refinedBy": {
+                    "id": "/target/knYCGwNfweJ/selector/textQuote/D36qsXyIY0R",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Plato",
+                    "prefix": "\n               There I beheld both Socrates and",
+                    "suffix": "\n               Who nearer him before the others stand;\n            \n\n            \n               Democritus, who puts the world on chance,\n               Diogenes, Anaxagoras, and Thales,\n               Zeno, Empedocles, and Heraclitus;\n            \n\n            \n               Of qualities I saw the good collector,\n               Hight Dioscorides; and Orpheus saw I,\n               Tully and Livy, and moral Seneca,\n            \n\n            \n               Euclid, geometrician, and Ptolemy,\n               Galen, Hippocrates, and Avicenna,\n               Averroes, who the great Comment made"
+                }
+            },
+            {
+                "id": "/target/knYCGwNfweJ/selector/css/UgnIW4PUkxs",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/yMftYVjAT8C]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q859",
+        "type": "crm:E21_Person",
+        "label": "Plato",
+        "description": "4th-century BCE Greek philosopher"
     },
     "P2_has_type": [
         "oa:identifying"

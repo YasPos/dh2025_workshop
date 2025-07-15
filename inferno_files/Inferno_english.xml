@@ -448,7 +448,7 @@
             <lg n="41" xml:id="lg041">
                <l n="121">I saw Electra with companions many,</l>
                <l n="122">’Mongst whom I knew both Hector and Aeneas,</l>
-               <l n="123">Caesar in armour with gerfalcon eyes;</l>
+               <l n="123"><persName key="Caesar, Julius" ref="http://viaf.org/viaf/286265178" ana="webannotation:http://temp.lincsproject.ca/KPMBrgxcwnB">Caesar</persName> in armour with gerfalcon eyes;</l>
             </lg>
 
             <lg n="42" xml:id="lg042">
@@ -511,4 +511,97 @@
          </div>
       </body>
    </text>
+	<standOff type="annotation">
+		<xenoData>
+			<rdf:RDF>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/KPMBrgxcwnB">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/KPMBrgxcwnB",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2025-07-15T15:31:08.576Z",
+    "creator": {
+        "id": "https://github.com/yaspos",
+        "type": "crm:E21_Person",
+        "name": "Yasmine Posillipo"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.1.0"
+    },
+    "target": {
+        "id": "/target/b3Ff1XecDPw",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/YasPos/dh2025_workshop/main/inferno_files/Inferno_english.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/YasPos/dh2025_workshop/main/inferno_files/Inferno_english.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "The Inferno"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/b3Ff1XecDPw/selector/textPosition/JHAMPEXjM4H",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 8116,
+                "end": 8122,
+                "refinedBy": {
+                    "id": "/target/b3Ff1XecDPw/selector/textQuote/bXa25Trbqbz",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Caesar",
+                    "prefix": "\n            \n\n            \n               I saw Electra with companions many,\n               ’Mongst whom I knew both Hector and Aeneas,\n              ",
+                    "suffix": "in armour with gerfalcon eyes;\n            \n\n            \n               I saw Camilla and Penthesilea\n               On the other side, and saw the King Latinus,\n               Who with Lavinia his daughter sat;\n            \n\n            \n               I saw that Brutus who drove Tarquin forth,\n               Lucretia, Julia, Marcia, and Cornelia,\n               And saw alone, apart, the Saladin"
+                }
+            },
+            {
+                "id": "/target/b3Ff1XecDPw/selector/css/gcUIVMDZqwx",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/KPMBrgxcwnB]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/286265178",
+        "type": "crm:E21_Person",
+        "label": "Caesar, Julius",
+        "description": "César, Jules, 0100-0044 av. J.-C."
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				</rdf:Description>
+			</rdf:RDF>
+		</xenoData>
+	</standOff>
 </TEI>

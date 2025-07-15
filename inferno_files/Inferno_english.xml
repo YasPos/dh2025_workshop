@@ -321,7 +321,7 @@
 
             <lg n="20" xml:id="lg020">
                <l n="58">Abraham, patriarch, and <persName xml:id="Dav01">David</persName>, king,</l>
-               <l n="59">Israel with his father and his children,</l>
+               <l n="59"><placeName key="Maimonides, Moses, 1135-1204." ref="http://viaf.org/viaf/100185495" ana="webannotation:http://temp.lincsproject.ca/VDL0xbgFzq1">Israel</placeName> with his father and his children,</l>
                <l n="60">And Rachel, for whose sake he did so much,</l>
             </lg>
 
@@ -514,6 +514,93 @@
 	<standOff type="annotation">
 		<xenoData>
 			<rdf:RDF>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/VDL0xbgFzq1">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/VDL0xbgFzq1",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2025-07-15T15:46:24.782Z",
+    "creator": {
+        "id": "https://github.com/yaspos",
+        "type": "crm:E21_Person",
+        "name": "Yasmine Posillipo"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.1.0"
+    },
+    "target": {
+        "id": "/target/9qUveoOPFVG",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/YasPos/dh2025_workshop/main/inferno_files/Inferno_english.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/YasPos/dh2025_workshop/main/inferno_files/Inferno_english.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "The Inferno"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/9qUveoOPFVG/selector/textPosition/PSf3n5p4IDR",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 3904,
+                "end": 3910,
+                "refinedBy": {
+                    "id": "/target/9qUveoOPFVG/selector/textQuote/av1A2u4RCLN",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Israel",
+                    "prefix": "\n            \n\n            \n               Hence he drew forth the shade of the First Parent,\n               And that of his son Abel, and of Noah,\n               Of Moses the lawgiver, and the obedient\n            \n\n            \n               Abraham, patriarch, and David, king,\n              ",
+                    "suffix": "with his father and his children,\n               And Rachel, for whose sake he did so much,\n            \n\n            \n               And others many, and he made them blessed;\n               And thou must know, that earlier than these\n               Never were any human spirits saved"
+                }
+            },
+            {
+                "id": "/target/9qUveoOPFVG/selector/css/OqzxmaflLsf",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/VDL0xbgFzq1]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/100185495",
+        "type": "crm:E21_Person",
+        "label": "Maimonides, Moses, 1135-1204.",
+        "description": "Moïse Maïmonide, 1138-1204"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				</rdf:Description>
 				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/KPMBrgxcwnB">
 <![CDATA[{
     "@context": [
